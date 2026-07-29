@@ -1,5 +1,5 @@
 import './App.css';
-import resumePdf from './TshiamoMoketeCV (1).pdf';
+import resumePdf from './Tshiamo Mokete resume.pdf';
 
 const projects = [
   {
@@ -51,7 +51,7 @@ function App() {
       <main>
         <section className="hero">
           <div className="hero-copy">
-            <p className="eyebrow">Hello, I’m Tshiamo Mokete</p>
+            <p className="eyebrow"><h4>Hello, I’m Tshiamo Mokete</h4></p>
             <h1>Building modern digital experiences with JavaScript.</h1>
             <p className="hero-description">
               I design and develop polished web applications that help brands stand out. Whether you're launching a product,
@@ -93,18 +93,25 @@ function App() {
                 confidence.
               </p>
             </div>
-            <div className="stats-grid">
-              <div>
-                <strong>3+</strong>
-                <p>Years building web experiences</p>
-              </div>
-              <div>
-                <strong>5+</strong>
-                <p>Projects built</p>
-              </div>
-              <div>
-                <strong>100%</strong>
-                <p>Responsive across all devices</p>
+            <div className="about-panel">
+              <img
+                src="/images/profile.png"
+                alt="Tshiamo Mokete"
+                className="about-photo"
+              />
+              <div className="stats-grid">
+                <div>
+                  <strong>3+</strong>
+                  <p>Years building web experiences</p>
+                </div>
+                <div>
+                  <strong>5+</strong>
+                  <p>Projects built</p>
+                </div>
+                <div>
+                  <strong>100%</strong>
+                  <p>Responsive across all devices</p>
+                </div>
               </div>
             </div>
           </div>
@@ -186,7 +193,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Made with React • Designed for performance and clarity</p>
+        <p>All rights reserved.</p>
       </footer>
     </div>
   );

@@ -175,6 +175,20 @@
   max-width: 640px;
 }
 
+.about-panel {
+  display: grid;
+  gap: 24px;
+}
+
+.about-photo {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 24px 60px rgba(4, 11, 24, 0.25);
+}
+
 .stats-grid {
   display: grid;
   gap: 18px;
