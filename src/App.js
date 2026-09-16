@@ -1,5 +1,5 @@
 import './App.css';
-import resumePdf from './Tshiamo Mokete resume.pdf';
+import resumePdf from './components/pdfs/TshiamoMokete Resume.pdf';
 
 const projects = [
   {
@@ -26,6 +26,7 @@ const skills = [
   'Node.js',
   'Django',
   'HTML & CSS',
+  'MySQL',
   'Firebase',
   'Responsive Design',
   'Accessibility',

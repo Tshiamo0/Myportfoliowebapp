@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# My Portfolio Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio built with React. This repository contains the source code for a responsive, single-page portfolio site that showcases projects, skills, and contact information. It was created with Create React App and includes a production-ready build in the `build/` folder.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive layout and mobile-friendly styles
+- Project gallery with links to live sites and source code
+- Easy to customize sections: About, Projects, Skills, Contact
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Create React App (build tooling)
+- CSS (static files in `public/` and `build/static/css`)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Quick Start
 
-### `npm test`
+Prerequisites: Node.js (v16+) and npm installed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Install dependencies:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Run the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open http://localhost:3000 in your browser. The app supports hot reloading while you develop.
 
-### `npm run eject`
+3. Create a production build:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The optimized output is placed in the `build/` folder and is ready for deployment.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Scripts
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `npm start` — Start the development server
+- `npm test` — Run tests
+- `npm run build` — Create a production build
+- `npm run eject` — Eject CRA configuration (irreversible)
 
-## Learn More
+## Project Structure (key files)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `public/` — static HTML and assets used at runtime
+- `src/` — React source files
+	- `App.js` — main app component
+	- `index.js` — entry point
+- `build/` — production build output (auto-generated)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+Deploy the contents of the `build/` folder to any static hosting provider (Netlify, Vercel, GitHub Pages, Firebase Hosting, etc.). Below are common deployment options.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+GitHub Pages
 
-### Analyzing the Bundle Size
+- Ensure `homepage` in `package.json` is set (already configured for this repo).
+- Install `gh-pages` and add deploy scripts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install --save-dev gh-pages
+```
 
-### Making a Progressive Web App
+Add to `package.json` scripts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+```
 
-### Advanced Configuration
+Then run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+npm run deploy
+```
 
-### Deployment
+Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Drag-and-drop the `build/` folder in Netlify's site deploy dashboard, or connect your Git repo and set the build command to `npm run build` and the publish directory to `build`.
 
-### `npm run build` fails to minify
+Vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Install the Vercel CLI or connect your Git repo in the Vercel dashboard. Use `npm run build` as the build command; Vercel will detect a Create React App and publish the `build` output automatically.
+
+If you'd like, I can add `gh-pages` scripts to `package.json` and install the dependency for you, or create a `netlify.toml` for Netlify—which would you prefer?
+
+## Customization
+
+Edit `src/App.js`, `src/App.css`, and the components in `src/components/` to customize content and styling. Replace images in `public/images/` and update links in the projects section.
+
+## Contributing
+
+Contributions are welcome. Open an issue or submit a pull request with changes.
+
+## License
+
+This project is provided under the MIT License (or choose another license).
+
+---
+
+If you'd like, I can update the `package.json` `homepage` for GitHub Pages or add deployment instructions for a specific host.
