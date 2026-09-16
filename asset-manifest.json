@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Myportfoliowebapp/static/css/main.26bed79f.css",
+    "main.js": "/Myportfoliowebapp/static/js/main.3e920cf7.js",
+    "static/js/453.880e63b9.chunk.js": "/Myportfoliowebapp/static/js/453.880e63b9.chunk.js",
+    "static/media/TshiamoMokete Resume.pdf": "/Myportfoliowebapp/static/media/TshiamoMokete Resume.0a39d9c65eea77ba2b79.pdf",
+    "index.html": "/Myportfoliowebapp/index.html",
+    "main.26bed79f.css.map": "/Myportfoliowebapp/static/css/main.26bed79f.css.map",
+    "main.3e920cf7.js.map": "/Myportfoliowebapp/static/js/main.3e920cf7.js.map",
+    "453.880e63b9.chunk.js.map": "/Myportfoliowebapp/static/js/453.880e63b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26bed79f.css",
+    "static/js/main.3e920cf7.js"
+  ]
+}
