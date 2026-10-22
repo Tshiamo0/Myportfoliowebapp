@@ -8,7 +8,7 @@ const projects = [
     tags: ['Django Python', 'CSS', 'Responsive Design'],
   },
   {
-    title: 'Gymania',
+    title: 'SportsBuddy',
     description: 'A fully functional web app that connects people locally for different sports events in their respective locations. It was developed using HTML, CSS, and JavaScript, with Firebase as the backend for data storage and user authentication.',
     tags: ['CSS', 'Firebase', 'JavaScript'],
   },
