@@ -89,8 +89,6 @@ Vercel
 
 - Install the Vercel CLI or connect your Git repo in the Vercel dashboard. Use `npm run build` as the build command; Vercel will detect a Create React App and publish the `build` output automatically.
 
-If you'd like, I can add `gh-pages` scripts to `package.json` and install the dependency for you, or create a `netlify.toml` for Netlify—which would you prefer?
-
 ## Customization
 
 Edit `src/App.js`, `src/App.css`, and the components in `src/components/` to customize content and styling. Replace images in `public/images/` and update links in the projects section.
@@ -101,8 +99,5 @@ Contributions are welcome. Open an issue or submit a pull request with changes.
 
 ## License
 
-This project is provided under the MIT License (or choose another license).
+This project is provided under the MIT License.
 
----
-
-If you'd like, I can update the `package.json` `homepage` for GitHub Pages or add deployment instructions for a specific host.

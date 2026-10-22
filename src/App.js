@@ -89,12 +89,13 @@ function App() {
           <div className="about-grid">
             <div>
               <p>
-                I’m a full-stack developer passionate about turning ideas into clean, engaging websites. I enjoy building
-                user-first experiences that feel intuitive on every screen.
+                Hi, I'm Tshiamo Mokete, a passionate software developer and recent Bachelor of Computer Applications (BCA) graduate with a strong interest in building innovative, user-friendly web applications. I enjoy turning ideas into functional digital solutions using technologies like Python, Django, React, JavaScript, and Node.js.
               </p>
               <p>
-                My work blends visual design, strong performance, and accessibility so every visitor can explore content with
-                confidence.
+                Through my internship and personal projects, I've gained hands-on experience in full-stack development, database management, and building responsive applications. I'm always eager to learn new technologies, solve challenging problems, and improve my skills as a developer.
+              </p>
+              <p>
+                I'm currently looking for opportunities to grow as a software developer, collaborate with talented people, and contribute to projects that make a real impact. When I'm not coding, I enjoy playing chess, going to the gym, and exploring new interests.
               </p>
             </div>
             <div className="about-panel">
