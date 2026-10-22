@@ -1,5 +1,5 @@
 import './App.css';
-import resumePdf from './components/pdfs/TshiamoMokete Resume.pdf';
+import resumePdf from './components/pdfs/Tshiamo Mokete Resume (2).pdf';
 
 const projects = [
   {
@@ -27,6 +27,7 @@ const skills = [
   'Django',
   'HTML & CSS',
   'MySQL',
+  'MongoDB',
   'Firebase',
   'Responsive Design',
   'Accessibility',
@@ -40,7 +41,9 @@ function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <div className="brand">My Portfolio</div>
+        <div className="brand" aria-label="Tshiamo Mokete">
+          TM
+        </div>
         <nav className="nav-links">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
@@ -172,14 +175,6 @@ function App() {
               rel="noreferrer"
             >
               LinkedIn
-            </a>
-            <a
-              className="button secondary"
-              href="https://github.com/Tshiamo0"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
             </a>
             <a
               className="button secondary"
